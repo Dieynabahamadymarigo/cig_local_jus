@@ -17,10 +17,17 @@
     height: 80px;
 }
 .header{
-    /* background-color:var(--secondary-color); */
     justify-content: space-between;
     align-items: center;
+    background-color:var(--white-color);
 }
+/* .header div {
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+} */
 .header div div ul{
     width: 100%;
     justify-content: center;

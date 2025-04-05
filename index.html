@@ -13,7 +13,6 @@
         <!-- Entete -->
         <nav class="navbar navbar-expand-lg header ">
             <div class="container-fluid ">
-                <!-- <a class="navbar-brand " href="#"> <img src="./images/logo.png" alt="" class="logo"> </a> -->
                 <a class="navbar-brand" href="#"> <img src="./images/Watercolor_Banana_Fruit_logo-removebg-preview.png" alt="" class="logo"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,22 +24,14 @@
                             <a class="nav-link active text-white" aria-current="page" href="#">ACCUEIL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">PRODUITS</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <!-- <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" -->
-                            <a class="nav-link  " href="#service" role="button" data-bs-toggle="dropdown" aria-expanded="false"> SERVICE </a>
-                            <!-- <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul> -->
+                            <a class="nav-link " href="#produits">PRODUITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">CONTACT</a>
+                            <!-- <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" -->
+                            <a class="nav-link  " href="#service"> SERVICE </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contact">CONTACT</a>
                         </li>
                     </ul>
                     <form class="d-flex headersearch mt-2" role="search">
@@ -125,7 +116,7 @@
         </div>
 
         <!-- Les produits -->
-        <div class="divproduct container ">
+        <div class="divproduct container" id="produits">
             <div class=" products">
                 <div class="card">
                     <img src="./images/newproduct.png" class="card-img-top" alt="...">
@@ -312,7 +303,7 @@
         <div style="height: 50px;"></div>
 
         <!-- service -->
-         <div class="card  container" id=   "service" style="border: none;">
+        <div class="card  container" id="service" style="border: none;">
             <div class="card-img-">
                 <h1 class="card-title text-center">Services</h1>
                 <p class="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus similique ipsum eaque ut consequuntur. Odio, eligendi minima laudantium obcaecati tempore repellat itaque numquam optio maiores sunt mollitia voluptatem delectus cupiditate!.</p>
@@ -353,7 +344,7 @@
         <div style="height: 50px;"></div>
         
         <!-- contact -->
-        <div class="card text-bg-dark border-0">
+        <div class="card text-bg-dark border-0" id="contact">
             <img src="./images/bannertemoin.png" class="card-img" alt="..." style="opacity: 20%;height: 400px;">
             <div class="card-img-overlay">
                 <form class="contact container">
